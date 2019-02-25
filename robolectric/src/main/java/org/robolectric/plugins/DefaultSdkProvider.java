@@ -91,7 +91,7 @@ public class DefaultSdkProvider implements SdkProvider {
     private final int requiredJavaVersion;
     private Path jarPath;
 
-    public DefaultSdk(
+    DefaultSdk(
         int apiLevel,
         String androidVersion,
         String robolectricVersion,
